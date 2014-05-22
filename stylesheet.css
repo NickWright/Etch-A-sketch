@@ -1,0 +1,49 @@
+.box{
+	display: inline-block;
+	width:600px;
+	height:600px;
+	position: absolute;
+	top: 10%;
+	left: 10%%;
+	border: 1px transparent;
+}
+
+.cell{
+	display: inline-block;
+	height:100%;
+	border: 1px solid black;
+	float: left;
+	background-color: rgb(147, 195, 247);
+	border-color: transparent;
+}
+
+.vertical{
+	border:1px solid transparent;
+	height: 10px;
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+body{
+	display: block;
+}
+
+button{
+	position: absolute;
+ 	border-color:transparent;
+ 	background-color:rgb(147, 195, 247); 
+}
+
+#tracer{
+	top:15px;
+ 	left:200px;
+}
+#reset{
+	top:15px;
+ 	left:130px;
+}
+#sketch{
+	top:15px;
+	left:275px;
+}
